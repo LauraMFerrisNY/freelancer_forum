@@ -4,8 +4,8 @@ const freelancers = [
     {name: "Carol", occupation: "Programmer", startingPrice: 70}
 ];
 
-const names = ["Laura", "Nick", "Kelly", "Jeff", "Alex", "Charlie"];
-const occupations = ["Doctor", "Pilot", "Accountant", "Baker", "Nurse", "Painter"];
+const names = ["Laura", "Nick", "Kelly", "Jeff", "Alex", "Charlie", "Vivian", "Jake", "Ben"];
+const occupations = ["Doctor", "Pilot", "Accountant", "Baker", "Nurse", "Painter", "Electrician"];
 
 let reloadCounter = 0;
 
@@ -94,7 +94,6 @@ function displayFreelancers() {
     //Displays the full table
     table.appendChild(tableBody);
     document.body.appendChild(table);
-    table.setAttribute("border", "2");
 }
 
 //Rerenders certain aspects of the page and adds a new freelancer
