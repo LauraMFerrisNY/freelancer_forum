@@ -132,8 +132,6 @@ function rerenderAverageSP() {
     const avgSP = document.querySelector("h3");
     avgSP.textContent = "Average starting price: $" + calculateAvgSP();
     document.body.appendChild(avgSP);
-
-    console.log("Hello");
 }
 
 createPage();
